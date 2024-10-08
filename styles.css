@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 
-header{
+.header-container{
     background-color: #120323;
     color: white;
     text-align: center;
@@ -13,13 +13,14 @@ header{
 }
 
 header img{
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
 #container{
 display: flex;
 flex-direction: column;
+align-items: center;
 padding: 20px;
 }
 
@@ -57,7 +58,7 @@ footer{
 
 /*devices less than 768px wide*/
 @media (max-width: 768px){
-    header{
+    .header-container{
         text-align: center;
     }
 }
@@ -85,7 +86,7 @@ aside{
 
 /*devices less than 1000px wide*/
 @media (max-width:1000px){
-    header{
+    .header-container{
         display: flex;
         flex-direction: row;
         align-items: center;
